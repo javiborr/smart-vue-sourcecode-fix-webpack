@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --mode development --open",
+    "build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -32,7 +32,18 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-useless-escape": "warn",
+      "getter-return": "warn",
+      "no-prototype-builtins": "warn",
+      "no-unused-vars": "warn",
+      "no-compare-neg-zero": "warn",
+      "no-undef": "warn",
+      "no-redeclare": "warn",
+      "no-shadow-restricted-names": "warn",
+      "no-constant-condition": "warn",
+      "no-mixed-spaces-and-tab": "off"
+    }
   },
   "browserslist": [
     "> 1%",
