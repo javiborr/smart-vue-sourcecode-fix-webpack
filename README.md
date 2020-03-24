@@ -1,5 +1,7 @@
 # smart-grid-vue-source
 
+I want to create a Vue.js app using Smart HTML Elements source code but I think the WebPack configuration is not OK
+
 ## Project setup
 ```
 npm install
